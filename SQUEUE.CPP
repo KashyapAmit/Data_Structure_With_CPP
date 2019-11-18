@@ -22,7 +22,7 @@ class queue
 	 void del();
 };
 void queue::insert()
-{
+{//hohj
   if(front==(rear+1)%max)
   {
     cout<<"!!!Overflow!!!\n";
